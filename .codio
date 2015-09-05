@@ -1,0 +1,17 @@
+{
+// Configure your Run and Preview buttons here.
+
+// Run button configuration
+  "commands": {
+	  	"Iniciar servidores":"parts start mongodb; npm start",
+	  	"Iniciar mongodb": "parts start mongodb",
+	  	"Detener mongodb": "parts stop mongodb",
+	  	"Abrir consola mongodb": "mongo",
+        "Node version": "node --version"
+  },
+
+// Preview button configuration
+  "preview": {
+        "Landing Page URL": "http://{{domain}}:3000/"
+  }
+}
